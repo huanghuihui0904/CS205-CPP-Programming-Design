@@ -1,0 +1,3 @@
+D:/文件资料/cpp/opencvtest/cmake-build-debug/CMakeFiles/opencvtest.dir
+D:/文件资料/cpp/opencvtest/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/文件资料/cpp/opencvtest/cmake-build-debug/CMakeFiles/rebuild_cache.dir

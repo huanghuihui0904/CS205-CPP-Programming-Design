@@ -1,0 +1,25 @@
+D:\JetBrains\Toolbox\apps\CLion\ch-0\221.5080.224\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=D:/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/ninja/win/ninja.exe -G Ninja -S D:\文件资料\cpp\opencvtest -B D:\文件资料\cpp\opencvtest\cmake-build-debug
+-- OpenCV ARCH: x64
+-- OpenCV RUNTIME: mingw
+-- OpenCV STATIC: OFF
+CMake Warning at D:/OpenCV/OpenCVConfig.cmake:176 (message):
+  Found OpenCV Windows Pack but it has no binaries compatible with your
+  configuration.
+
+  You should manually point CMake variable OpenCV_DIR to your build of OpenCV
+  library.
+Call Stack (most recent call first):
+  CMakeLists.txt:15 (find_package)
+
+
+CMake Error at CMakeLists.txt:15 (find_package):
+  Found package configuration file:
+
+    D:/OpenCV/OpenCVConfig.cmake
+
+  but it set OpenCV_FOUND to FALSE so package "OpenCV" is considered to be
+  NOT FOUND.
+
+
+-- Configuring incomplete, errors occurred!
+See also "D:/文件资料/cpp/opencvtest/cmake-build-debug/CMakeFiles/CMakeOutput.log".
